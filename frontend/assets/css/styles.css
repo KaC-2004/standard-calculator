@@ -1,0 +1,33 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.keyBtns{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(4, 32px);
+    grid-template-columns: repeat(4, 32px);
+    grid-gap: 4px;
+
+}
+
+#child-clear-all{
+    
+}
