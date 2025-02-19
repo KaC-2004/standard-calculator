@@ -24,6 +24,8 @@ body{
 #display-screen{
     height: 100px;
     width: 100em;
+    font-size: x-large;
+    color: #ffffff;
     border-radius: 28px;
     background-color: #323643;
 }
