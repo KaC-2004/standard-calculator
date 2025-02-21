@@ -23,7 +23,7 @@ body{
 
 #display-screen{
     height: 100px;
-    width: 100em;
+    width: 100%;
     font-size: x-large;
     color: #ffffff;
     border-radius: 28px;
