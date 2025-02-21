@@ -219,8 +219,12 @@ function evaluatePostfix(postfixTokens) {
                 case "-": result = a - b; break;
                 case "*": result = a * b; break;
                 case "/":
-                    if (b === 0) result = a === 0 ? 0 : Infinity;
-                    else result = a / b;
+                    if (a === 0 && b === 0)
+                        result = undefined;
+                    else if (b === 0) 
+                        result = a === 0 ? 0 : Infinity;
+                    else 
+                        result = a / b;
                     break;
                 default: return "Error";
             }
